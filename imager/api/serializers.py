@@ -4,6 +4,6 @@ from imager.models import Snippets
 
 
 class SnippetsSerializer(serializers.HyperlinkedModelSerializer):
-    class meta:
+    class Meta:
         model = Snippets
         fields = '__all__'
